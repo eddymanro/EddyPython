@@ -102,7 +102,7 @@ def get_year_data(dataset, year):
 
 def __main__():
     my_data = prepare_dataset(raw_data)
-    yearly_data = get_year_data(my_data, '2019')
+    yearly_data = get_year_data(my_data, '2018')
     print(yearly_data)
     country_data = get_country_data(my_data, 'RO')
     print(country_data)
